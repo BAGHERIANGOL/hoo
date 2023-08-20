@@ -1,4 +1,6 @@
 import './App.css';
+import Cond from "./Cond"
+import Props from "./Props"
 function App() {
   return (
     <div className='App'>
@@ -14,6 +16,8 @@ function App() {
           color: 'red',
         }}
       />
+      <Cond/>
+      <Props/>
   
     </div>
   );
