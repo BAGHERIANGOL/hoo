@@ -1,6 +1,8 @@
 import './App.css';
 import Cond from "./Cond"
 import Props from "./Props"
+import Click from "./click"
+import Quu from "./Quu"
 function App() {
   return (
     <div className='App'>
@@ -16,8 +18,10 @@ function App() {
           color: 'red',
         }}
       />
-      <Cond/>
-      <Props/>
+      <Click/>
+      <Quu/>
+     
+ 
   
     </div>
   );
