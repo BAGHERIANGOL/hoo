@@ -1,8 +1,8 @@
 function Props() {
     const masaleh=[
-     'سنگ ','آجر',"گچ"
+     'SAND ','BRICK',"GEPS"
     ]
-    return ( <div>
+    return ( <div style={{ color:'yellow'}}>
         {masaleh.map((u,index)=>{ return <h1 key={index}>{u} </h1>})}
     </div> );
 }
